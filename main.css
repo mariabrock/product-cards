@@ -2,22 +2,30 @@ body {
     background-color: darkslateblue;
 }
 
+
+.master {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
 .card {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-max-width: 300px;
-margin: auto;
-text-align: center;
-font-family: arial;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: solid 1px lightblue;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
 }
 
 img {
     display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 .feature {
@@ -29,3 +37,6 @@ footer {
     justify-content: center;
 }
 
+.words {
+    text-align: justified;
+}
