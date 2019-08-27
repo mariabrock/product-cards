@@ -52,3 +52,10 @@ footer {
 #details {
     font-weight: bold;
 }
+
+.soldout {
+    position: absolute;
+    margin: auto;
+    padding: auto;
+    width: 30%;
+}
