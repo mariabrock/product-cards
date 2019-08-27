@@ -1,24 +1,26 @@
 body {
-    background-color: darkslateblue;
+    background-color: #303F9F;
 }
 
 
 .master {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .card {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border: solid 1px lightblue;
-    max-width: 500px;
-    margin: auto;
+    max-width: 29%;
+    margin: 50px 0;
     text-align: center;
-    font-family: arial;
+    font-size: 16px;
+    font-family: 'Crete Round', serif;
+    background-color: #3F51B5;
 }
 
 img {
@@ -39,4 +41,14 @@ footer {
 
 .words {
     text-align: justified;
+    color: #FFFFFF;
+}
+
+#avail {
+    background-color: #757575;
+    color: #FFEB3B;
+}
+
+#details {
+    font-weight: bold;
 }
