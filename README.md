@@ -4,7 +4,9 @@
 A grid of cards for a crochet company's products.
 
 ## Screenshots
-
+![Product Cards Preview 1](https://raw.githubusercontent.com/mariabrock/product-cards/master/screenshots/mainview1.PNG)
+![Product Cards Preview 2](https://raw.githubusercontent.com/mariabrock/product-cards/master/screenshots/mainview2.PNG)
+![Product Cards Preview 3](https://raw.githubusercontent.com/mariabrock/product-cards/master/screenshots/mainview3.PNG)
 
 ## How to Run
 * clone down this project 
